@@ -17,6 +17,8 @@ if is_internet():
 	print("Internet is actived")
 else:
 	quit("Internet is disconnected\nPlease turn on you're WiFi")
+print("Updating")
+system("apt-get update")
 sleep(0.7)
 """///"""
 system("clear")
